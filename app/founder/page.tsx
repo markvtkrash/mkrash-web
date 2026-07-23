@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 // TODO: replace the placeholders below with real details.
 const FOUNDER = {
-  name: "[Founder Name]",
+  name: "[Vik]",
   role: "Founder & Developer",
   initials: "MK", // shown until you add a photo
   // To use a photo instead of initials: add /public/founder.jpg and set photo: "/founder.jpg"
