@@ -3,30 +3,58 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const links = [
+type NavItem =
+  | { href: string; label: string }
+  | { label: string; children: { href: string; label: string }[] };
+
+const links: NavItem[] = [
   { href: "/#product", label: "Product" },
   { href: "/#work", label: "Work" },
-  { href: "/about", label: "About" },
-  { href: "/founder", label: "Founder" },
+  {
+    label: "About",
+    children: [
+      { href: "/about", label: "Company" },
+      { href: "/founder", label: "Founder" },
+    ],
+  },
   { href: "/#contact", label: "Contact" },
 ];
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const close = () => setOpen(false);
 
   return (
     <header>
       <div className="container nav">
-        <Link href="/" className="logo" onClick={() => setOpen(false)}>
+        <Link href="/" className="logo" onClick={close}>
           <span className="dot" /> Markvt Krash
         </Link>
 
         <nav className="nav-links">
-          {links.map((l) => (
-            <Link key={l.href} href={l.href}>
-              {l.label}
-            </Link>
-          ))}
+          {links.map((l) =>
+            "children" in l ? (
+              <div key={l.label} className="nav-dropdown">
+                <button type="button" className="nav-dropdown-trigger">
+                  {l.label}
+                  <span className="caret" aria-hidden>
+                    ▾
+                  </span>
+                </button>
+                <div className="nav-dropdown-menu">
+                  {l.children.map((c) => (
+                    <Link key={c.href} href={c.href}>
+                      {c.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <Link key={l.href} href={l.href}>
+                {l.label}
+              </Link>
+            )
+          )}
         </nav>
 
         <button
@@ -42,11 +70,22 @@ export function Header() {
 
       <nav className={`mobile-menu ${open ? "open" : ""}`}>
         <div className="container">
-          {links.map((l) => (
-            <Link key={l.href} href={l.href} onClick={() => setOpen(false)}>
-              {l.label}
-            </Link>
-          ))}
+          {links.map((l) =>
+            "children" in l ? (
+              <div key={l.label} className="mobile-group">
+                <span className="mobile-group-label">{l.label}</span>
+                {l.children.map((c) => (
+                  <Link key={c.href} href={c.href} className="mobile-sub" onClick={close}>
+                    {c.label}
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <Link key={l.href} href={l.href} onClick={close}>
+                {l.label}
+              </Link>
+            )
+          )}
         </div>
       </nav>
     </header>
