@@ -36,6 +36,45 @@ header {
 .nav-links { display: flex; gap: 30px; font-size: 15px; color: var(--muted); }
 .nav-links a:hover { color: var(--ink); }
 
+/* ---- Mobile nav toggle (hamburger) ---- */
+.nav-toggle {
+  display: none;
+  position: relative;
+  width: 40px; height: 40px;
+  margin-right: -8px;
+  border: none; background: transparent; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.nav-toggle-bar,
+.nav-toggle-bar::before,
+.nav-toggle-bar::after {
+  content: ""; position: absolute; left: 9px;
+  width: 22px; height: 2px; border-radius: 2px;
+  background: var(--ink);
+  transition: transform .25s ease, opacity .2s ease;
+}
+.nav-toggle-bar { top: 19px; }
+.nav-toggle-bar::before { top: -7px; }
+.nav-toggle-bar::after { top: 7px; }
+.nav-toggle-bar.open { background: transparent; }
+.nav-toggle-bar.open::before { transform: translateY(7px) rotate(45deg); }
+.nav-toggle-bar.open::after { transform: translateY(-7px) rotate(-45deg); }
+
+.mobile-menu {
+  display: none;
+  overflow: hidden;
+  max-height: 0;
+  border-bottom: 1px solid transparent;
+  transition: max-height .3s ease, border-color .3s ease;
+}
+.mobile-menu.open { max-height: 340px; border-bottom-color: var(--line); }
+.mobile-menu .container { display: flex; flex-direction: column; padding-top: 8px; padding-bottom: 16px; }
+.mobile-menu a {
+  padding: 14px 4px; font-size: 17px; font-weight: 600;
+  color: var(--ink); border-bottom: 1px solid var(--line);
+}
+.mobile-menu a:last-child { border-bottom: none; }
+
 /* ---- Buttons ---- */
 .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 26px; border-radius: 999px; font-weight: 600; font-size: 15px; transition: transform .1s ease, background .2s, border-color .2s; }
 .btn-primary { background: var(--ink); color: #fff; }
@@ -107,12 +146,29 @@ footer { border-top: 1px solid var(--line); background: var(--bg-soft); padding:
 
 @media (max-width: 800px) {
   .nav-links { display: none; }
-  .hero { padding: 80px 0 64px; }
+  .nav-toggle { display: block; }
+  .mobile-menu { display: block; }
+  .hero { padding: 72px 0 56px; }
   .product { grid-template-columns: 1fr; gap: 40px; }
   .product-visual { order: -1; }
   .grid { grid-template-columns: 1fr; }
-  .legal-wrap { grid-template-columns: 1fr; gap: 20px; }
+  section.block { padding: 64px 0; }
+  .legal-wrap { grid-template-columns: 1fr; gap: 20px; padding: 40px 0 64px; }
   .legal-nav { position: static; display: flex; flex-wrap: wrap; }
+}
+
+@media (max-width: 520px) {
+  .container { padding: 0 20px; }
+  .nav { height: 60px; }
+  .btn { padding: 13px 22px; }
+  .cta-row .btn { flex: 1 1 auto; justify-content: center; }
+  section.block { padding: 56px 0; }
+  .sec-head { margin-bottom: 28px; }
+  .phone { width: 220px; }
+  .grid { gap: 14px; }
+  .card { padding: 22px; }
+  .contact a.mail { font-size: 17px; word-break: break-word; }
+  .footer-links { gap: 16px 20px; }
 }
 
 /* ---- Content pages (About / Founder) ---- */
@@ -154,5 +210,12 @@ footer { border-top: 1px solid var(--line); background: var(--bg-soft); padding:
 @media (max-width: 700px) {
   .values { grid-template-columns: 1fr; }
   .profile { flex-direction: column; gap: 20px; }
-  .pagewrap { padding: 72px 28px 64px; }
+  .pagewrap { padding: 64px 20px 56px; }
+  .domains { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 520px) {
+  .avatar.lg { width: 108px; height: 108px; font-size: 40px; }
+  .founder-card { gap: 16px; padding: 20px; }
+  .socials { flex-wrap: wrap; gap: 14px 18px; }
 }

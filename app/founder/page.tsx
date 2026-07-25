@@ -16,10 +16,10 @@ const FOUNDER = {
     "[Founder Name] founded Markvt Krash to build mobile apps that are personal, fast, and genuinely useful. The studio's first product, PikMe, grew out of a simple question everyone faces every day: what should I eat?",
     "From design to code to launch, every part of Markvt Krash's products is built with care and a focus on the details that make software feel effortless.",
   ],
-  email: "hello@markvtkrash.com",
+  email: "support@markvtkrash.com",
   // Optional — remove any you don't want to show:
   links: [
-    { label: "Email", href: "mailto:hello@markvtkrash.com" },
+    { label: "Email", href: "mailto:support@markvtkrash.com" },
     // { label: "GitHub", href: "https://github.com/..." },
     // { label: "LinkedIn", href: "https://linkedin.com/in/..." },
   ],

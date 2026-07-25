@@ -104,7 +104,7 @@ export default function About() {
         <h2>Get in touch</h2>
         <p>
           Partnerships, press, or ideas? Email{" "}
-          <a href="mailto:hello@markvtkrash.com">hello@markvtkrash.com</a>.
+          <a href="mailto:support@markvtkrash.com">support@markvtkrash.com</a>.
         </p>
       </div>
     </main>

@@ -85,8 +85,8 @@ export default function Home() {
         <div className="container">
           <div className="sec-head">Contact</div>
           <h2>Have an idea, or just want to say hi?</h2>
-          <a className="mail" href="mailto:hello@markvtkrash.com">
-            hello@markvtkrash.com
+          <a className="mail" href="mailto:support@markvtkrash.com">
+            support@markvtkrash.com
           </a>
         </div>
       </section>
