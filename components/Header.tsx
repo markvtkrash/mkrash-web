@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 type NavItem =
@@ -9,8 +10,8 @@ type NavItem =
 
 const links: NavItem[] = [
   { href: "/", label: "Home" },
-  { href: "/#product", label: "Product" },
-  { href: "/#work", label: "Work" },
+  { href: "/#tech", label: "Technology" },
+  { href: "/#pikme", label: "PikMe" },
   {
     label: "About",
     children: [
@@ -24,9 +25,10 @@ const links: NavItem[] = [
 export function Header() {
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
+  const overlay = usePathname() === "/";
 
   return (
-    <header>
+    <header className={overlay ? "overlay" : undefined}>
       <div className="container nav">
         <Link href="/" className="logo" onClick={close}>
           <span className="dot" /> Markvt Krash
