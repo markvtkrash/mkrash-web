@@ -10,8 +10,6 @@ type NavItem =
 
 const links: NavItem[] = [
   { href: "/", label: "Home" },
-  { href: "/#tech", label: "Technology" },
-  { href: "/#pikme", label: "PikMe" },
   {
     label: "About",
     children: [
@@ -19,6 +17,8 @@ const links: NavItem[] = [
       { href: "/founder", label: "Founder" },
     ],
   },
+  { href: "/#products", label: "Products" },
+  { href: "/#coming-soon", label: "Coming Soon" },
   { href: "/#contact", label: "Contact" },
 ];
 
