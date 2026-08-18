@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function FoodDisclaimer() {
   return (
-    <LegalPage title="Food Disclaimer" effective="Please read before using PikMe" pill="Important">
+    <LegalPage title="Food Disclaimer" effective="Please read before using PikMe" pill="Important" bare>
       <div className="callout">
         <strong>Nutritional information are approximations.</strong> Allergen and dietary restriction
         information could have changed. Verify important info before consuming.

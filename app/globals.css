@@ -499,6 +499,7 @@ footer { border-top: 1px solid var(--line); background: var(--bg-soft); padding:
 
 /* ---- Legal pages ---- */
 .legal-wrap { max-width: 1120px; margin: 0 auto; padding: 56px 28px 80px; display: grid; grid-template-columns: 220px 1fr; gap: 48px; }
+.legal-wrap-bare { grid-template-columns: 1fr; max-width: 760px; padding-top: 64px; }
 .legal-nav { position: sticky; top: 92px; align-self: start; display: grid; gap: 4px; }
 .legal-nav a { padding: 10px 14px; border-radius: 10px; font-size: 15px; font-weight: 600; color: var(--muted); }
 .legal-nav a:hover { background: var(--bg-soft); color: var(--ink); }

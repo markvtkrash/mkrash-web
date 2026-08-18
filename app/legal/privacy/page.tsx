@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Privacy() {
   return (
-    <LegalPage title="Privacy Policy" effective="Effective Date: June 17, 2026">
+    <LegalPage title="Privacy Policy" effective="Effective Date: June 17, 2026" bare>
       <p>
         PikMe is committed to protecting your privacy. This Privacy Policy explains how we collect,
         use, disclose, and safeguard your information when you use our mobile application. PikMe is a
