@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Terms() {
   return (
-    <LegalPage title="Terms of Service" effective="Effective Date: June 17, 2026">
+    <LegalPage title="Terms of Service" effective="Effective Date: June 17, 2026" bare>
       <p>By using PikMe, you agree to these Terms. PikMe is a product of Markvt Krash LLC.</p>
 
       <h2>1. Use License</h2>
