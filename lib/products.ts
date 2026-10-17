@@ -14,14 +14,14 @@ export type Product = {
   color: string;
   platform?: string;
   url?: string; // primary external link — App Store URL, or the product's website
-  logo?: string; // path to a real logo image in /public, e.g. "/logos/zingerfi.png"
+  logo?: string; // path to a real logo image in /public, e.g. "/logos/product.png"
   image?: string; // real screenshot/photo to use as the card banner instead of the generated graphic
 };
 
 export const products: Product[] = [
   {
-    slug: "pikme",
-    name: "PikMe",
+    slug: "vectra-vibe",
+    name: "Vectra Vibe",
     tagline: "Find meals made for you",
     description:
       "Personalized food & restaurant recommendations, powered by AI. Available on iOS.",
@@ -30,34 +30,7 @@ export const products: Product[] = [
     color: "#34d17b",
     platform: "iOS",
     url: "#", // TODO: replace with the real App Store URL once live
-    image: "/screenshots/pikme.png",
-  },
-  {
-    slug: "zingerfi",
-    name: "ZingerFi",
-    tagline: "Secure AI encryption",
-    description:
-      "ZingerFi applies AI-driven encryption to keep sensitive data protected in real time, without slowing your team down.",
-    status: "live",
-    kind: "ai",
-    color: "#22d3ee",
-    platform: "Web",
-    url: "https://zingerfi.com",
-    logo: "/logos/zingerfi.png",
-    image: "/screenshots/zingerfi.png",
-  },
-  {
-    slug: "snitchon",
-    name: "SnitchOn",
-    tagline: "Advanced algorithmic AI",
-    description:
-      "SnitchOn uses advanced algorithmic AI to detect and flag misinformation as it spreads, helping people separate fact from fake news.",
-    status: "live",
-    kind: "ai",
-    color: "#818cf8",
-    platform: "Web",
-    url: "https://www.snitchon.org",
-    image: "/screenshots/snitchon.png",
+    image: "/screenshots/vectra-vibe.png",
   },
   {
     slug: "physical-ai",

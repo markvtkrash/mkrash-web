@@ -3,13 +3,13 @@ import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Delete Your Account",
-  description: "How to permanently delete your PikMe account and data.",
+  description: "How to permanently delete your Vectra Vibe account and data.",
 };
 
 export default function DeleteAccount() {
   return (
     <LegalPage title="Delete Your Account" pill="Account">
-      <p>You can permanently delete your PikMe account and all associated data at any time.</p>
+      <p>You can permanently delete your Vectra Vibe account and all associated data at any time.</p>
 
       <h2>In the app</h2>
       <ul>
@@ -23,7 +23,7 @@ export default function DeleteAccount() {
 
       <h2>Need help?</h2>
       <p>
-        If you can&apos;t access the app, email <a href="mailto:support@pikme.app">support@pikme.app</a>{" "}
+        If you can&apos;t access the app, email <a href="mailto:support@markvtkrash.com">support@markvtkrash.com</a>{" "}
         from the address associated with your account and we&apos;ll delete it for you.
       </p>
     </LegalPage>

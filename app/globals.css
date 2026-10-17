@@ -444,7 +444,7 @@ section.block { padding: 76px 0; border-top: 1px solid var(--line); }
 
 .product-visual { display: flex; justify-content: center; }
 
-/* Generic animated graphic visual for web-product pages (ZingerFi, SnitchOn, ...) */
+/* Generic animated graphic visual for web-product pages */
 .product-graphic-card {
   position: relative; width: 100%; max-width: 380px; aspect-ratio: 1 / 1; margin: 0 auto;
   border-radius: var(--radius-lg); overflow: hidden;

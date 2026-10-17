@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { PanelGraphic } from "./PanelGraphic";
-import { PikMeIcon } from "./PikMeIcon";
+import { VectraVibeIcon } from "./VectraVibeIcon";
 import { products, type Product } from "@/lib/products";
 
 function CardGraphic({ p }: { p: Product }) {
@@ -14,8 +14,8 @@ function CardGraphic({ p }: { p: Product }) {
       )}
       <div className="dash-banner-scrim" />
       <div className="dash-logo">
-        {p.slug === "pikme" ? (
-          <PikMeIcon className="dash-logo-icon" id={`dash-${p.slug}`} />
+        {p.slug === "vectra-vibe" ? (
+          <VectraVibeIcon className="dash-logo-icon" id={`dash-${p.slug}`} />
         ) : p.logo ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={p.logo} alt={`${p.name} logo`} className="dash-logo-image" />

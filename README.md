@@ -1,6 +1,6 @@
 # Markvt Krash — Studio Website
 
-Marketing + legal site for **Markvt Krash LLC**, maker of the PikMe app.
+Marketing + legal site for **Markvt Krash LLC**, maker of the Vectra Vibe app.
 Built with Next.js (App Router) + TypeScript, plain global CSS (no Tailwind config).
 
 ## Run locally
@@ -28,7 +28,7 @@ app/
     food-disclaimer/
     support/
     delete-account/
-components/              Header, Footer, LegalPage, LegalNav, PikMeIcon
+components/              Header, Footer, LegalPage, LegalNav, VectraVibeIcon
 lib/products.ts         Product list — ADD FUTURE APPS (e.g. entertainment) HERE
 public/icon.svg         Favicon
 ```
