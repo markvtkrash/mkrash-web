@@ -3,13 +3,13 @@ import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Delete Your Account",
-  description: "How to permanently delete your VektraVibe account and data.",
+  description: "How to permanently delete your Vectra Vibe account and data.",
 };
 
 export default function DeleteAccount() {
   return (
     <LegalPage title="Delete Your Account" pill="Account">
-      <p>You can permanently delete your VektraVibe account and all associated data at any time.</p>
+      <p>You can permanently delete your Vectra Vibe account and all associated data at any time.</p>
 
       <h2>In the app</h2>
       <ul>

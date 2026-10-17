@@ -15,7 +15,7 @@ type Panel = {
   secondary: { label: string; href: string };
   bg?: "particles" | "none";
   // Real media drop-ins (take priority over the generated graphics):
-  //   image — a photo, e.g. "/tech/pikme.jpg"
+  //   image — a photo, e.g. "/tech/vectra-vibe.jpg"
   //   video — looping footage, e.g. "/tech/hero.mp4"  (put files in /public/tech)
   image?: string;
   video?: string;

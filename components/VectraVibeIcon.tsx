@@ -1,6 +1,6 @@
-export function PikMeIcon({ className, id = "pm" }: { className?: string; id?: string }) {
+export function VectraVibeIcon({ className, id = "vv" }: { className?: string; id?: string }) {
   return (
-    <svg className={className} viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" aria-label="PikMe">
+    <svg className={className} viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" aria-label="Vectra Vibe">
       <defs>
         <linearGradient id={id} x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="#2e7d32" />

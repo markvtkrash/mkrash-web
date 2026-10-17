@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "PikMe",
-  description: "PikMe — personalized food & restaurant recommendations tailored to YOUR needs, powered by AI. Available on iOS.",
+  title: "Vectra Vibe",
+  description: "Vectra Vibe — personalized food & restaurant recommendations tailored to YOUR needs, powered by AI. Available on iOS.",
 };
 
-export default function PikMeProduct() {
+export default function VectraVibeProduct() {
   return (
     <main>
       <div className="pagewrap">
         <div className="eyebrow">Flagship Product · Live on iOS</div>
-        <h1>PikMe</h1>
+        <h1>Vectra Vibe</h1>
         <p className="lead">
           Your personal menu guide — nearby restaurants and the exact dishes worth ordering,
           matched to your diet, health goals, and allergens.
@@ -21,10 +21,10 @@ export default function PikMeProduct() {
         <div className="container">
           <div className="product">
             <div className="product-copy">
-              <div className="tagline">PikMe — Find meals made for you</div>
+              <div className="tagline">Vectra Vibe — Find meals made for you</div>
               <h2>Personalized recommendations, powered by AI.</h2>
               <p>
-                PikMe surfaces nearby restaurants and the exact dishes worth ordering — matched to
+                Vectra Vibe surfaces nearby restaurants and the exact dishes worth ordering — matched to
                 your diet, health goals, and personal preferences.
               </p>
               <ul className="feature-list">
@@ -43,7 +43,7 @@ export default function PikMeProduct() {
             <div className="product-visual">
               <div className="product-screenshot-card">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/screenshots/pikme.png" alt="PikMe screenshot" />
+                <img src="/screenshots/vectra-vibe.png" alt="Vectra Vibe screenshot" />
               </div>
             </div>
           </div>

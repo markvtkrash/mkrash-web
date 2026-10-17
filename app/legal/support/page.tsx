@@ -4,13 +4,13 @@ import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Support",
-  description: "Get help with VektraVibe.",
+  description: "Get help with Vectra Vibe.",
 };
 
 export default function Support() {
   return (
     <LegalPage title="Support" pill="Help">
-      <p>Need help with VektraVibe? We&apos;re here.</p>
+      <p>Need help with Vectra Vibe? We&apos;re here.</p>
 
       <h2>Contact us</h2>
       <p>
@@ -24,7 +24,7 @@ export default function Support() {
           <strong>How do I change my preferences?</strong> Open the Profile tab and tap Edit Profile.
         </li>
         <li>
-          <strong>Location isn&apos;t working.</strong> Enable location access for VektraVibe in your
+          <strong>Location isn&apos;t working.</strong> Enable location access for Vectra Vibe in your
           device Settings.
         </li>
         <li>

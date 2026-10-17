@@ -3,15 +3,15 @@ import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How VektraVibe collects, uses, and protects your information.",
+  description: "How Vectra Vibe collects, uses, and protects your information.",
 };
 
 export default function Privacy() {
   return (
     <LegalPage title="Privacy Policy" effective="Effective Date: October 17, 2026" bare>
       <p>
-        VektraVibe is committed to protecting your privacy. This Privacy Policy explains how we collect,
-        use, disclose, and safeguard your information when you use our mobile application. VektraVibe is a
+        Vectra Vibe is committed to protecting your privacy. This Privacy Policy explains how we collect,
+        use, disclose, and safeguard your information when you use our mobile application. Vectra Vibe is a
         product of Markvt Krash LLC.
       </p>
 
@@ -37,7 +37,7 @@ export default function Privacy() {
           timestamps.
         </li>
         <li>
-          <strong>Waitlist:</strong> If you ask to be told when VektraVibe opens in your state, we store
+          <strong>Waitlist:</strong> If you ask to be told when Vectra Vibe opens in your state, we store
           your email address and that state.
         </li>
         <li>
@@ -103,7 +103,7 @@ export default function Privacy() {
 
       <h2>Children</h2>
       <p>
-        VektraVibe is not intended for children under 13, and we do not knowingly collect personal
+        Vectra Vibe is not intended for children under 13, and we do not knowingly collect personal
         information from them. If you believe a child has given us information, contact{" "}
         <a href="mailto:support@markvtkrash.com">support@markvtkrash.com</a> and we will delete it.
       </p>
@@ -124,7 +124,7 @@ export default function Privacy() {
 
       <h2>Changes to This Policy</h2>
       <p>
-        We may update this policy as VektraVibe changes. The effective date above shows when it was last
+        We may update this policy as Vectra Vibe changes. The effective date above shows when it was last
         updated.
       </p>
 

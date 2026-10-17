@@ -3,12 +3,12 @@ import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Food Disclaimer",
-  description: "Important information about nutrition, allergens, diets, and AI suggestions in VektraVibe.",
+  description: "Important information about nutrition, allergens, diets, and AI suggestions in Vectra Vibe.",
 };
 
 export default function FoodDisclaimer() {
   return (
-    <LegalPage title="Food Disclaimer" effective="Please read before using VektraVibe" pill="Important" bare>
+    <LegalPage title="Food Disclaimer" effective="Please read before using Vectra Vibe" pill="Important" bare>
       <div className="callout">
         <strong>Nutritional information are approximations.</strong> Allergen and dietary information
         could have changed. Verify important info with the restaurant before consuming.
@@ -37,7 +37,7 @@ export default function FoodDisclaimer() {
       <h2>Health Conditions</h2>
       <p>
         If you have medical conditions or serious allergies, consult healthcare professionals and do
-        not rely solely on VektraVibe.
+        not rely solely on Vectra Vibe.
       </p>
 
       <h2>Estimated Menus and AI Suggestions</h2>
@@ -65,8 +65,8 @@ export default function FoodDisclaimer() {
       </div>
 
       <p>
-        VektraVibe provides information &quot;as-is&quot; without warranties of accuracy or completeness.
-        By using VektraVibe you accept responsibility for verifying critical information and for your
+        Vectra Vibe provides information &quot;as-is&quot; without warranties of accuracy or completeness.
+        By using Vectra Vibe you accept responsibility for verifying critical information and for your
         food-safety decisions.
       </p>
     </LegalPage>
