@@ -1,0 +1,109 @@
+/* Matches the Vectra Vibe consumer app's own theme (user/src/constants/brandTheme.ts), not the dark
+   marketing site. Self-contained to this folder -- globals.css is never touched by this page. */
+
+.page {
+  min-height: 100vh;
+  background: #EAF3FC; /* BRAND_COLORS.background.page */
+  color: #1a1a1a; /* BRAND_COLORS.text.primary */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 20px;
+  font-family: -apple-system, "SF Pro Display", "Helvetica Neue", Roboto, system-ui, sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 20px; /* BRAND_RADIUS.xl */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* BRAND_SHADOWS.medium */
+  padding: 36px 28px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #E3F2FD; /* BRAND_COLORS.primaryLight */
+  color: #0D47A1; /* BRAND_COLORS.primaryDark */
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 18px;
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.name {
+  font-size: 24px; /* BRAND_TYPOGRAPHY.h1 */
+  font-weight: 800;
+  color: #141414;
+  letter-spacing: -0.3px;
+  margin-bottom: 8px;
+}
+
+.fallbackTitle {
+  font-size: 20px; /* BRAND_TYPOGRAPHY.h2-ish */
+  font-weight: 800;
+  color: #141414;
+  margin-bottom: 8px;
+}
+
+.address {
+  font-size: 15px; /* BRAND_TYPOGRAPHY.body */
+  color: #666666;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.fallbackText {
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+.cuisineRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 26px;
+}
+
+.cuisinePill {
+  background: #FFF8E1;
+  border: 1.5px solid #FFB300;
+  color: #5D4037;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 5px 13px;
+  border-radius: 999px;
+  text-transform: capitalize;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #1565C0; /* BRAND_COLORS.primary */
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 14px 30px;
+  border-radius: 999px;
+  text-decoration: none;
+  box-shadow: 0 10px 24px -12px rgba(21, 101, 192, 0.5);
+  transition: transform 0.12s ease, box-shadow 0.2s ease;
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px -12px rgba(21, 101, 192, 0.6);
+}
