@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description: "How Vectra Vibe collects, uses, and protects your information.",
 };
 
+
 export default function Privacy() {
   return (
     <LegalPage title="Privacy Policy" effective="Effective Date: October 17, 2026" bare>
