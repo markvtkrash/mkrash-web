@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Vectra Vibe",
-  description: "Vectra Vibe — personalized food & restaurant recommendations tailored to YOUR needs, powered by AI. Available on iOS.",
+  title: "VektraVibe",
+  description: "VektraVibe — find restaurants near you, see estimated nutrition on their menus, and save your favorites. Available on iOS.",
 };
 
 export default function VectraVibeProduct() {
   return (
     <main>
       <div className="pagewrap">
-        <div className="eyebrow">Flagship Product · Live on iOS</div>
-        <h1>Vectra Vibe</h1>
+        <div className="eyebrow">Flagship Product · iOS</div>
+        <h1>VektraVibe</h1>
         <p className="lead">
-          Your personal menu guide — nearby restaurants and the exact dishes worth ordering,
-          matched to your diet, health goals, and allergens.
+          Find restaurants near you and see what is on their menus, with estimated nutrition
+          for the dishes.
         </p>
       </div>
 
@@ -21,17 +21,17 @@ export default function VectraVibeProduct() {
         <div className="container">
           <div className="product">
             <div className="product-copy">
-              <div className="tagline">Vectra Vibe — Find meals made for you</div>
-              <h2>Personalized recommendations, powered by AI.</h2>
+              <div className="tagline">VektraVibe — Menus and nutrition, near you</div>
+              <h2>Restaurant menus and nutrition, in one place.</h2>
               <p>
-                Vectra Vibe surfaces nearby restaurants and the exact dishes worth ordering — matched to
-                your diet, health goals, and personal preferences.
+                VektraVibe shows you nearby restaurants and the dishes on their menus, with estimated
+                nutrition such as calories and macros, so you can decide what to eat.
               </p>
               <ul className="feature-list">
-                <li><span className="tick">✓</span> Discover restaurants near you</li>
-                <li><span className="tick">✓</span> AI recommendations for specific menu items</li>
-                <li><span className="tick">✓</span> Personalized to your dietary needs &amp; allergens</li>
-                <li><span className="tick">✓</span> Save the places and dishes you love</li>
+                <li><span className="tick">✓</span> Browse restaurants near you, filtered by distance</li>
+                <li><span className="tick">✓</span> See estimated nutrition on menus</li>
+                <li><span className="tick">✓</span> Quick Find for a fast answer</li>
+                <li><span className="tick">✓</span> Save the places and dishes you love, and share them</li>
               </ul>
               <div className="cta-row">
                 <a className="btn btn-primary" href="#">
@@ -43,7 +43,7 @@ export default function VectraVibeProduct() {
             <div className="product-visual">
               <div className="product-screenshot-card">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/screenshots/vectra-vibe.png" alt="Vectra Vibe screenshot" />
+                <img src="/screenshots/vectra-vibe.png" alt="VektraVibe screenshot" />
               </div>
             </div>
           </div>

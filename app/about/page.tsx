@@ -42,7 +42,7 @@ export default function About() {
       <h1>Engineering intelligence — from software to the physical world.</h1>
       <p className="lead">
         Markvt Krash is a technology company building intelligent systems across artificial
-        intelligence, physical AI, IoT, robotics, and nano-scale AI. Vectra Vibe, our first consumer
+        intelligence, physical AI, IoT, robotics, and nano-scale AI. VektraVibe, our first consumer
         product, is only the beginning of what we&apos;re building.
       </p>
 
@@ -69,7 +69,7 @@ export default function About() {
 
         <h2>In the pipeline</h2>
         <p>
-          Vectra Vibe is live today, and a portfolio of products spanning these technologies is in active
+          VektraVibe is live today, and a portfolio of products spanning these technologies is in active
           development — each designed to bring advanced intelligence out of the lab and into
           everyday life.
         </p>

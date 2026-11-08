@@ -21,7 +21,7 @@ export function Hero() {
                 Explore
               </Link>
               <Link className="btn btn-glass" href="#products">
-                Meet Vectra Vibe
+                Meet VektraVibe
               </Link>
             </div>
           </div>

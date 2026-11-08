@@ -3,13 +3,13 @@ import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "The terms that govern your use of Vectra Vibe.",
+  description: "The terms that govern your use of VektraVibe.",
 };
 
 export default function Terms() {
   return (
     <LegalPage title="Terms of Service" effective="Effective Date: October 17, 2026" bare>
-      <p>By using Vectra Vibe, you agree to these Terms. Vectra Vibe is a product of Markvt Krash LLC.</p>
+      <p>By using VektraVibe, you agree to these Terms. VektraVibe is a product of Markvt Krash LLC.</p>
 
       <h2>1. Use License</h2>
       <p>
@@ -22,9 +22,9 @@ export default function Terms() {
 
       <h2>3. Limitation of Liability</h2>
       <p>
-        Vectra Vibe is provided &quot;as-is&quot; without warranties. We are not liable for indirect,
+        VektraVibe is provided &quot;as-is&quot; without warranties. We are not liable for indirect,
         incidental, or consequential damages, loss of data, or reliance on food suggestions. You
-        use Vectra Vibe at your own risk.
+        use VektraVibe at your own risk.
       </p>
 
       <h2>4. Information Shown in the App</h2>
@@ -50,13 +50,13 @@ export default function Terms() {
 
       <h2>9. Third-Party Services &amp; Data Sources</h2>
       <p>
-        Vectra Vibe uses Google Maps Platform for place search and location lookup. Use of Google Maps
+        VektraVibe uses Google Maps Platform for place search and location lookup. Use of Google Maps
         features and content is subject to the then-current{" "}
         <a href="https://www.google.com/help/terms_maps/">Google Maps End User Additional Terms of Service</a>{" "}
         and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
       </p>
       <p>
-        Vectra Vibe also uses SerpApi, which reads Google Maps listings to locate restaurant menu links; SerpApi
+        VektraVibe also uses SerpApi, which reads Google Maps listings to locate restaurant menu links; SerpApi
         receives place IDs only, not your personal data. Menu item names displayed in the app are sourced
         from restaurants&apos; own public websites and listings.
       </p>
