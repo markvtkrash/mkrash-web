@@ -21,10 +21,10 @@ export type Product = {
 export const products: Product[] = [
   {
     slug: "vectra-vibe",
-    name: "Vectra Vibe",
-    tagline: "Find meals made for you",
+    name: "VektraVibe",
+    tagline: "Menus and nutrition, near you",
     description:
-      "Personalized food & restaurant recommendations, powered by AI. Available on iOS.",
+      "Find restaurants near you, see estimated nutrition on their menus, and save your favorites. Available on iOS.",
     status: "live",
     kind: "ai",
     color: "#34d17b",

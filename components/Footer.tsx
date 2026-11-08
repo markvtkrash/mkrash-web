@@ -8,7 +8,7 @@ export function Footer() {
           </div>
         </div>
         <div className="copyright">
-          © {new Date().getFullYear()} Markvt Krash LLC. Vectra Vibe is a product of Markvt Krash LLC. All rights reserved.
+          © {new Date().getFullYear()} Markvt Krash LLC. VektraVibe is a product of Markvt Krash LLC. All rights reserved.
         </div>
       </div>
     </footer>

@@ -1,4 +1,4 @@
-/* Matches the Vectra Vibe consumer app's own theme (user/src/constants/brandTheme.ts), not the dark
+/* Matches the VektraVibe consumer app's own theme (user/src/constants/brandTheme.ts), not the dark
    marketing site. Self-contained to this folder -- globals.css is never touched by this page. */
 
 .page {

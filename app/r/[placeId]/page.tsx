@@ -7,7 +7,7 @@ import styles from "./page.module.css";
 // is server-only and this repo has no client-side Supabase use at all. Never a dead end: an unknown or
 // unreachable place falls back to a short message instead of an error page.
 //
-// Themed to match the Vectra Vibe consumer app (page.module.css, self-contained to this folder), not the
+// Themed to match the VektraVibe consumer app (page.module.css, self-contained to this folder), not the
 // dark marketing site -- SiteChrome treats /r/ as a bare prefix so this page skips the site's own
 // Header/Footer too.
 interface PlaceShareInfo {
@@ -44,7 +44,7 @@ export async function generateMetadata({
   const info = await fetchPlaceShareInfo(placeId);
   return {
     title: info?.name ?? "Restaurant",
-    description: info ? `${info.name} on Vectra Vibe.` : "Find this restaurant's menu on Vectra Vibe.",
+    description: info ? `${info.name} on VektraVibe.` : "Find this restaurant's menu on VektraVibe.",
   };
 }
 
@@ -66,7 +66,7 @@ export default async function PlaceSharePage({
             The restaurant you&apos;re looking for couldn&apos;t be found. It may have moved, or the link may be out of date.
           </p>
           <Link className={styles.cta} href="/products/vectra-vibe">
-            Get Vectra Vibe
+            Get VektraVibe
           </Link>
         </div>
       </main>
@@ -78,7 +78,7 @@ export default async function PlaceSharePage({
   return (
     <main className={styles.page}>
       <div className={styles.card}>
-        <div className={styles.badge}>On Vectra Vibe</div>
+        <div className={styles.badge}>On VektraVibe</div>
         <h1 className={styles.name}>{info.name}</h1>
         {!!info.address && <p className={styles.address}>{info.address}</p>}
         {cuisines.length > 0 && (
@@ -91,7 +91,7 @@ export default async function PlaceSharePage({
           </div>
         )}
         <Link className={styles.cta} href="/products/vectra-vibe">
-          Get Vectra Vibe
+          Get VektraVibe
         </Link>
       </div>
     </main>

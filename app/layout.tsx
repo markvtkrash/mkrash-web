@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     template: "%s — Markvt Krash",
   },
   description:
-    "Markvt Krash is a frontier technology company building intelligent systems across AI, physical AI, IoT, robotics, and nano AI. Maker of Vectra Vibe.",
+    "Markvt Krash is a frontier technology company building intelligent systems across AI, physical AI, IoT, robotics, and nano AI. Maker of VektraVibe.",
   openGraph: {
     title: "Markvt Krash — Frontier Technology Company",
     description:
-      "Building intelligent systems across AI, physical AI, IoT, robotics, and nano AI. Maker of Vectra Vibe.",
+      "Building intelligent systems across AI, physical AI, IoT, robotics, and nano AI. Maker of VektraVibe.",
     type: "website",
   },
   icons: { icon: "/icon.svg" },
