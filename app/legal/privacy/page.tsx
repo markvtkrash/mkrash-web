@@ -3,15 +3,15 @@ import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How PikMe collects, uses, and protects your information.",
+  description: "How VektraVibe collects, uses, and protects your information.",
 };
 
 export default function Privacy() {
   return (
     <LegalPage title="Privacy Policy" effective="Effective Date: June 17, 2026">
       <p>
-        PikMe is committed to protecting your privacy. This Privacy Policy explains how we collect,
-        use, disclose, and safeguard your information when you use our mobile application. PikMe is a
+        VektraVibe is committed to protecting your privacy. This Privacy Policy explains how we collect,
+        use, disclose, and safeguard your information when you use our mobile application. VektraVibe is a
         product of Markvt Krash LLC.
       </p>
 
@@ -22,8 +22,8 @@ export default function Privacy() {
           permission). Not permanently stored; used for the current session only.
         </li>
         <li>
-          <strong>Profile:</strong> Dietary preferences, health goals, allergens, cuisine
-          preferences, and display name.
+          <strong>Profile:</strong> Dietary preferences, health goals, cuisine preferences, and
+          display name.
         </li>
         <li>
           <strong>Usage:</strong> Menu items viewed, items saved, chat interactions, and timestamps.
@@ -45,8 +45,15 @@ export default function Privacy() {
       <ul>
         <li>Google Places API — restaurant &amp; location data — <a href="https://policies.google.com/privacy">privacy policy</a></li>
         <li>Supabase — user data storage — <a href="https://supabase.com/privacy">privacy policy</a></li>
-        <li>Anthropic (Claude AI) — menu recommendations — <a href="https://www.anthropic.com/legal/privacy">privacy policy</a></li>
+        <li>Anthropic (Claude AI) — menu recommendations, estimated menus and Quick Find answers — <a href="https://www.anthropic.com/legal/privacy">privacy policy</a></li>
       </ul>
+      <p>
+        <strong>What we send to the AI provider:</strong> your Quick Find questions, the names of
+        nearby restaurants and dishes, dish nutrition estimates, and the profile choices that help
+        tailor an answer (such as dietary preferences, health goals and cuisine preferences). If you
+        describe your preferences in your own words during setup, that text is sent too. We do not
+        send your name or email address.
+      </p>
 
       <h2>Data Security</h2>
       <p>
@@ -57,7 +64,7 @@ export default function Privacy() {
       <h2>Your Rights</h2>
       <p>
         Where applicable (GDPR/CCPA): access, delete, opt-out of certain processing, and data
-        portability. Contact <a href="mailto:support@pikme.app">support@pikme.app</a> to exercise
+        portability. Contact <a href="mailto:support@markvtkrash.com">support@markvtkrash.com</a> to exercise
         these rights.
       </p>
 
@@ -69,7 +76,7 @@ export default function Privacy() {
 
       <h2>Contact</h2>
       <p>
-        Questions? Email <a href="mailto:support@pikme.app">support@pikme.app</a>.
+        Questions? Email <a href="mailto:support@markvtkrash.com">support@markvtkrash.com</a>.
       </p>
     </LegalPage>
   );

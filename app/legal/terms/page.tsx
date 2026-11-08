@@ -3,13 +3,13 @@ import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "The terms that govern your use of PikMe.",
+  description: "The terms that govern your use of VektraVibe.",
 };
 
 export default function Terms() {
   return (
     <LegalPage title="Terms of Service" effective="Effective Date: June 17, 2026">
-      <p>By using PikMe, you agree to these Terms. PikMe is a product of Markvt Krash LLC.</p>
+      <p>By using VektraVibe, you agree to these Terms. VektraVibe is a product of Markvt Krash LLC.</p>
 
       <h2>1. Use License</h2>
       <p>
@@ -22,9 +22,9 @@ export default function Terms() {
 
       <h2>3. Limitation of Liability</h2>
       <p>
-        PikMe is provided &quot;as-is&quot; without warranties. We are not liable for indirect,
+        VektraVibe is provided &quot;as-is&quot; without warranties. We are not liable for indirect,
         incidental, or consequential damages, loss of data, or reliance on food recommendations. You
-        use PikMe at your own risk.
+        use VektraVibe at your own risk.
       </p>
 
       <h2>4. Intellectual Property</h2>
@@ -41,7 +41,7 @@ export default function Terms() {
 
       <h2>8. Contact</h2>
       <p>
-        For legal matters, contact <a href="mailto:legal@pikme.app">legal@pikme.app</a>.
+        For legal matters, contact <a href="mailto:support@markvtkrash.com">support@markvtkrash.com</a>.
       </p>
     </LegalPage>
   );
