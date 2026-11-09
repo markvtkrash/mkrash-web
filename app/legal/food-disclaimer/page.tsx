@@ -3,15 +3,15 @@ import { LegalPage } from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Food Disclaimer",
-  description: "Important information about nutrition, allergens, diets, and AI suggestions in VektraVibe.",
+  description: "Important information about nutrition, menus, diets, and AI suggestions in VektraVibe.",
 };
 
 export default function FoodDisclaimer() {
   return (
     <LegalPage title="Food Disclaimer" effective="Please read before using VektraVibe" pill="Important" bare>
       <div className="callout">
-        <strong>Nutritional information are approximations.</strong> Allergen and dietary information
-        could have changed. Verify important info with the restaurant before consuming.
+        <strong>Nutritional information are approximations.</strong> Menu details could have changed.
+        Verify important info with the restaurant before consuming.
       </div>
 
       <h2>Nutrition</h2>
@@ -20,10 +20,10 @@ export default function FoodDisclaimer() {
         information with restaurants and check labels on packaged items.
       </p>
 
-      <h2>Allergens</h2>
+      <h2>Ingredients and Preparation</h2>
       <p>
-        Cross-contamination may occur during food preparation. Always inform restaurant staff of
-        allergies, ask about preparation methods, and request ingredient lists.
+        Ingredients and preparation can change, and cross-contamination may occur during food
+        preparation. Ask the restaurant about ingredients and preparation methods before you order.
       </p>
 
       <h2>Dietary Preferences and Dish Names</h2>
@@ -36,7 +36,7 @@ export default function FoodDisclaimer() {
 
       <h2>Health Conditions</h2>
       <p>
-        If you have medical conditions or serious allergies, consult healthcare professionals and do
+        If you have a medical condition or dietary needs, consult healthcare professionals and do
         not rely solely on VektraVibe.
       </p>
 
@@ -61,7 +61,7 @@ export default function FoodDisclaimer() {
       </p>
 
       <div className="callout">
-        <strong>Emergency:</strong> Allergic reaction → call 911. Poison Control → 1-800-222-1222.
+        <strong>Emergency:</strong> Call 911. Poison Control → 1-800-222-1222.
       </div>
 
       <p>
