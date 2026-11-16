@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About",
@@ -89,17 +88,6 @@ export default function About() {
             <p>Research only matters when it ships and improves real people&apos;s lives.</p>
           </div>
         </div>
-
-        <h2>Leadership</h2>
-        <p>Markvt Krash was founded and is led by its founder.</p>
-        <Link href="/founder" className="founder-card" style={{ textDecoration: "none", color: "inherit" }}>
-          <div className="avatar sm">MK</div>
-          <div className="meta">
-            <h3>Meet the founder</h3>
-            <p>The person behind Markvt Krash.</p>
-          </div>
-          <div className="arrow">→</div>
-        </Link>
 
         <h2>Get in touch</h2>
         <p>
